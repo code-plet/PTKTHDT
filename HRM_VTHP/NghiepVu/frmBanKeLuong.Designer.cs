@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBanKeLuong));
             this.dtpThang = new System.Windows.Forms.DateTimePicker();
             this.lblThang = new System.Windows.Forms.Label();
             this.grdBanKeLuong = new DevExpress.XtraGrid.GridControl();
@@ -105,7 +104,6 @@
             this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus;
             this.gridView1.GridControl = this.grdBanKeLuong;
             this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsDetail.DetailMode = DevExpress.XtraGrid.Views.Grid.DetailMode.Default;
             this.gridView1.OptionsFilter.AllowFilterEditor = false;
             this.gridView1.OptionsView.ShowAutoFilterRow = true;
             this.gridView1.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never;
@@ -268,7 +266,6 @@
             // 
             // btnTinhLuong
             // 
-            this.btnTinhLuong.Image = ((System.Drawing.Image)(resources.GetObject("btnTinhLuong.Image")));
             this.btnTinhLuong.Location = new System.Drawing.Point(297, 9);
             this.btnTinhLuong.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnTinhLuong.Name = "btnTinhLuong";
